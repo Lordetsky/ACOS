@@ -10,15 +10,24 @@ main:
 	ecall
 	mv t1, a0 # t0 always has basic y in it
 	
-	# 4) (x >> y) + 10 -- arithmetical shift
+	# 12) (x == (y + 3)) ? 0 : 1
 	mv t2, t0
 	mv t3, t1
 	
-	# x >> y
-	sra t2, t2, t3
+	# y += 3
+	addi t3, t3, 3
 	
-	# x += 10
-	addi t2, t2, 10
+	# x == y
+	beq t2, t3, true
+	
+	# if false
+	li t2, 1
+	j end
+	
+true: 	# if true
+	li t2, 0
+	
+end:
 	
 	# print(x)
 	li a7, 1

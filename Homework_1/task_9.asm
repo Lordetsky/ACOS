@@ -10,15 +10,21 @@ main:
 	ecall
 	mv t1, a0 # t0 always has basic y in it
 	
-	# 4) (x >> y) + 10 -- arithmetical shift
+	# 9) (x / y) * y + x % y
 	mv t2, t0
 	mv t3, t1
 	
-	# x >> y
-	sra t2, t2, t3
+	# x /= y if we work with int, we can have diff answers (5 / 2) * 2 = 4
+	div t2, t2, t3
 	
-	# x += 10
-	addi t2, t2, 10
+	# x *= y
+	mul t2, t2, t3
+	
+	# y = x % y
+	rem t3, t0, t3
+	
+	# x += y
+	add t2, t2, t3
 	
 	# print(x)
 	li a7, 1

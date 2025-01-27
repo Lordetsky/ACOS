@@ -21,8 +21,7 @@ main:
 	sub t2, t2, t3
 	
 	# x += 5
-	li a0, 5
-	add t2, t2, a0
+	addi t2, t2, 5
 	
 	# x >> 1
 	srli t2, t2, 1

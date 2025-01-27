@@ -15,8 +15,7 @@ main:
 	mv t3, t1
 	
 	# x += 5
-	li a0, 5
-	add t2, t2, a0
+	addi t2, t2, 5
 	
 	# y -= 7
 	li a0, 7
