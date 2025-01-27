@@ -10,7 +10,7 @@ main:
 	ecall
 	mv t1, a0 # t0 always has basic y in it
 	
-	# 12) x > -5 & y < 5
+	# 16) x > -5 & y < 5
 	mv t2, t0
 	mv t3, t1
 	

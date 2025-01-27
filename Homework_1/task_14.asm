@@ -10,7 +10,7 @@ main:
 	ecall
 	mv t1, a0 # t0 always has basic y in it
 	
-	# 12) x > y ? 0 : 1
+	# 14) x > y ? 0 : 1
 	mv t2, t0
 	mv t3, t1
 	

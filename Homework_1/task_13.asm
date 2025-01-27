@@ -1,6 +1,6 @@
 	.data
 mask:
-	.word 0xfffffffe
+	.word 1
 
 	.text
 main:
@@ -14,7 +14,7 @@ main:
 	ecall
 	mv t1, a0 # t0 always has basic y in it
 	
-	# 12) set the y-th bit of x to 1 (bit numbers start from 0)
+	# 13) set the y-th bit of x to 0 (bit numbers start from 0)
 	mv t2, t0
 	mv t3, t1
 	
@@ -22,7 +22,9 @@ main:
 	lw t4, mask
 	sll t4, t4, t3
 	
-	# x | mask (set y-th bit to 1)
+	not t4, t4
+	
+	# x | mask (set y-th bit to 0)
 	and t2, t2, t4
 	
 	# print(x)

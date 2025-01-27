@@ -24,7 +24,7 @@ main:
 	addi t2, t2, 5
 	
 	# x >> 1
-	srli t2, t2, 1
+	srai t2, t2, 1
 	
 	# print(x)
 	li a7, 1
