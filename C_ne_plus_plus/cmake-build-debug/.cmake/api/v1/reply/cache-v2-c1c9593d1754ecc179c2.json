@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/senya/CLionProjects/Acosoki/C_ne_plus_plus/cmake-build-debug"
+			"value" : "/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug"
 		},
 		{
 			"name" : "Acosoki_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/senya/CLionProjects/Acosoki/C_ne_plus_plus"
+			"value" : "/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/senya/CLionProjects/Acosoki/C_ne_plus_plus/cmake-build-debug"
+			"value" : "/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -419,7 +419,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/senya/CLionProjects/Acosoki/C_ne_plus_plus/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/senya/CLionProjects/Acosoki/C_ne_plus_plus"
+			"value" : "/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",

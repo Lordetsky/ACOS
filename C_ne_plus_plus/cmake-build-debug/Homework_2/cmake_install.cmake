@@ -1,4 +1,4 @@
-# Install script for directory: /Users/senya/CLionProjects/Acosoki/C_ne_plus_plus/Homework_2
+# Install script for directory: /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/Homework_2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
