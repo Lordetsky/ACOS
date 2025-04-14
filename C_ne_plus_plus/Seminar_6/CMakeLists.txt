@@ -1,0 +1,1 @@
+add_executable(task_1 task_1.c)

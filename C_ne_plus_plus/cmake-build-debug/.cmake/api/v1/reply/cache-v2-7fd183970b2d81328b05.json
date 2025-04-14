@@ -2,7 +2,7 @@
 	"entries" : 
 	[
 		{
-			"name" : "Acosoki_BINARY_DIR",
+			"name" : "Acosiki_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -14,7 +14,7 @@
 			"value" : "/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug"
 		},
 		{
-			"name" : "Acosoki_IS_TOP_LEVEL",
+			"name" : "Acosiki_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -26,7 +26,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Acosoki_SOURCE_DIR",
+			"name" : "Acosiki_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -699,7 +699,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "15.3"
 		},
 		{
 			"name" : "CMAKE_OSX_SYSROOT",
@@ -711,7 +711,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+			"value" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -759,7 +759,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Acosoki"
+			"value" : "Acosiki"
 		},
 		{
 			"name" : "CMAKE_RANLIB",

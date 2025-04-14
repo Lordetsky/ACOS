@@ -1,0 +1,92 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Homework_3",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-Homework_3-Debug-ffa4058b4770e831800b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Homework_3"
+				},
+				{
+					"build" : "Homework_3/task_1",
+					"jsonFile" : "directory-Homework_3.task_1-Debug-8fe2c7ac34a9bff292e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Homework_3/task_1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Acosiki",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "dd::@02c6e7450849f5bf5c2f",
+					"jsonFile" : "target-dd-Debug-c7ee69545f1eca62b8f7.json",
+					"name" : "dd",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug",
+		"source" : "/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
