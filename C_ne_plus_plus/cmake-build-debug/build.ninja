@@ -72,94 +72,27 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Utility command for edit_cache
 
-build Homework_3/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Homework_3 && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build Seminar_9/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Seminar_9 && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build Homework_3/edit_cache: phony Homework_3/CMakeFiles/edit_cache.util
+build Seminar_9/edit_cache: phony Seminar_9/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build Homework_3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Homework_3 && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus -B/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug
+build Seminar_9/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Seminar_9 && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus -B/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build Homework_3/rebuild_cache: phony Homework_3/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/Homework_3/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target dd
-
-
-#############################################
-# Order-only phony target for dd
-
-build cmake_object_order_depends_target_dd: phony || .
-
-build Homework_3/task_1/CMakeFiles/dd.dir/Complex.c.o: C_COMPILER__dd_unscanned_Debug /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/Homework_3/task_1/Complex.c || cmake_object_order_depends_target_dd
-  DEP_FILE = Homework_3/task_1/CMakeFiles/dd.dir/Complex.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -mmacosx-version-min=15.3 -fcolor-diagnostics
-  OBJECT_DIR = Homework_3/task_1/CMakeFiles/dd.dir
-  OBJECT_FILE_DIR = Homework_3/task_1/CMakeFiles/dd.dir
-
-build Homework_3/task_1/CMakeFiles/dd.dir/main.c.o: C_COMPILER__dd_unscanned_Debug /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/Homework_3/task_1/main.c || cmake_object_order_depends_target_dd
-  DEP_FILE = Homework_3/task_1/CMakeFiles/dd.dir/main.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -mmacosx-version-min=15.3 -fcolor-diagnostics
-  OBJECT_DIR = Homework_3/task_1/CMakeFiles/dd.dir
-  OBJECT_FILE_DIR = Homework_3/task_1/CMakeFiles/dd.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target dd
-
-
-#############################################
-# Link the executable Homework_3/task_1/dd
-
-build Homework_3/task_1/dd: C_EXECUTABLE_LINKER__dd_Debug Homework_3/task_1/CMakeFiles/dd.dir/Complex.c.o Homework_3/task_1/CMakeFiles/dd.dir/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk -mmacosx-version-min=15.3
-  OBJECT_DIR = Homework_3/task_1/CMakeFiles/dd.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = Homework_3/task_1/dd
-  TARGET_PDB = dd.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build Homework_3/task_1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Homework_3/task_1 && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build Homework_3/task_1/edit_cache: phony Homework_3/task_1/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build Homework_3/task_1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Homework_3/task_1 && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus -B/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build Homework_3/task_1/rebuild_cache: phony Homework_3/task_1/CMakeFiles/rebuild_cache.util
+build Seminar_9/rebuild_cache: phony Seminar_9/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
-
-build dd: phony Homework_3/task_1/dd
 
 # =============================================================================
 # Folder targets.
@@ -169,21 +102,14 @@ build dd: phony Homework_3/task_1/dd
 #############################################
 # Folder: /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug
 
-build all: phony Homework_3/all
+build all: phony Seminar_9/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Homework_3
+# Folder: /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Seminar_9
 
-build Homework_3/all: phony Homework_3/task_1/all
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Homework_3/task_1
-
-build Homework_3/task_1/all: phony Homework_3/task_1/dd
+build Seminar_9/all: phony
 
 # =============================================================================
 # Built-in targets
@@ -192,14 +118,14 @@ build Homework_3/task_1/all: phony Homework_3/task_1/dd
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/CMakeLists.txt /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/Homework_3/CMakeLists.txt /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/Homework_3/task_1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/CMakeLists.txt /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/Seminar_9/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/CMakeLists.txt /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/Homework_3/CMakeLists.txt /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/Homework_3/task_1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/CMakeLists.txt /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/Seminar_9/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

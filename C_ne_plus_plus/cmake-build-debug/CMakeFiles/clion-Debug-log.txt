@@ -1,10 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus -B /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug
-CMake Error at CMakeLists.txt:10 (add_subdirectory):
-  The source directory
-
-    /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/Homework_3
-
-  does not contain a CMakeLists.txt file.
-
-
--- Configuring incomplete, errors occurred!
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug

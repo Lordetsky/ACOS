@@ -1,7 +1,4 @@
 /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Homework_3/CMakeFiles/edit_cache.dir
-/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Homework_3/CMakeFiles/rebuild_cache.dir
-/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Homework_3/task_1/CMakeFiles/dd.dir
-/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Homework_3/task_1/CMakeFiles/edit_cache.dir
-/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Homework_3/task_1/CMakeFiles/rebuild_cache.dir
+/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Seminar_9/CMakeFiles/edit_cache.dir
+/Users/senya/CLionProjects/Acosiki/C_ne_plus_plus/cmake-build-debug/Seminar_9/CMakeFiles/rebuild_cache.dir

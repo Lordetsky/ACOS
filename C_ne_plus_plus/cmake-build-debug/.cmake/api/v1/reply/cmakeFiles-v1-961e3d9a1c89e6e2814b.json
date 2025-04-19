@@ -103,10 +103,7 @@
 			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "Homework_3/CMakeLists.txt"
-		},
-		{
-			"path" : "Homework_3/task_1/CMakeLists.txt"
+			"path" : "Seminar_9/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

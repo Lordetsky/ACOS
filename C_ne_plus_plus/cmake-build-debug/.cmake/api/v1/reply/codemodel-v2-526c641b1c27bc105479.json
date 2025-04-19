@@ -19,34 +19,15 @@
 					"source" : "."
 				},
 				{
-					"build" : "Homework_3",
-					"childIndexes" : 
-					[
-						2
-					],
-					"jsonFile" : "directory-Homework_3-Debug-ffa4058b4770e831800b.json",
+					"build" : "Seminar_9",
+					"jsonFile" : "directory-Seminar_9-Debug-af2a7432214477b66110.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.30"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "Homework_3"
-				},
-				{
-					"build" : "Homework_3/task_1",
-					"jsonFile" : "directory-Homework_3.task_1-Debug-8fe2c7ac34a9bff292e1.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.30"
-					},
-					"parentIndex" : 1,
-					"projectIndex" : 0,
-					"source" : "Homework_3/task_1",
-					"targetIndexes" : 
-					[
-						0
-					]
+					"source" : "Seminar_9"
 				}
 			],
 			"name" : "Debug",
@@ -56,26 +37,12 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1,
-						2
+						1
 					],
-					"name" : "Acosiki",
-					"targetIndexes" : 
-					[
-						0
-					]
+					"name" : "Acosiki"
 				}
 			],
-			"targets" : 
-			[
-				{
-					"directoryIndex" : 2,
-					"id" : "dd::@02c6e7450849f5bf5c2f",
-					"jsonFile" : "target-dd-Debug-c7ee69545f1eca62b8f7.json",
-					"name" : "dd",
-					"projectIndex" : 0
-				}
-			]
+			"targets" : []
 		}
 	],
 	"kind" : "codemodel",
